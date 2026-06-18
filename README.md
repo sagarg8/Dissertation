@@ -39,8 +39,7 @@ I systematically "blindfolded" the model to measure the importance of each data 
 ## 📂 Project Structure
 ```text
 6003CMD_Dissertation/
-├── data/
-│   ├── processed/          # Cleaned CSVs, test indices, and baseline preds
+├── data/                   # Cleaned CSVs, test indices, and baseline preds
 ├── project_documents/      # Contains draft documents, dev logs, and supervisor notes
 ├── models/                 # Saved model weights (.pth)
 ├── results/                
