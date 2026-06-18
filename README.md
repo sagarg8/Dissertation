@@ -3,13 +3,7 @@
 
 This repository contains the code for a machine learning dissertation focused on predicting used car prices using both tabular metadata (**The Bookkeeper**) and visual data (**The Mechanic**). 
 
-By using a **Late Fusion** architecture, this model combines a Deep Learning vision branch (ResNet-50) with a dense neural network to achieve significantly higher accuracy than industry-standard tabular models.
-
-
-## 🎥 Technical Walkthrough & Demonstration
-To view the live code execution, architectural explanation, and Grad-CAM interpretability demonstration, please watch the included video artefact:
- **[Watch: 6003_Code_Recording.mov](./6003_Code_Recording.mov)**
----
+By using a **Late Fusion** architecture, this model combines a Deep Learning vision branch (ResNet-50) with a dense neural network to achieve significantly higher accuracy than industry-standard tabular models
 
 ## 📊 The Results
 The project compared a heavily optimised **XGBoost** baseline (hyperparameter-tuned) against the **PyTorch Multimodal Fusion** network on an identical test set.
@@ -47,7 +41,6 @@ I systematically "blindfolded" the model to measure the importance of each data 
 6003CMD_Dissertation/
 ├── data/
 │   ├── processed/          # Cleaned CSVs, test indices, and baseline preds
-│   └── raw/                # Raw DVM dataset and images
 ├── project_documents/      # Contains draft documents, dev logs, and supervisor notes
 ├── models/                 # Saved model weights (.pth)
 ├── results/                
@@ -55,7 +48,6 @@ I systematically "blindfolded" the model to measure the importance of each data 
 │   └── heatmaps/           # Grad-CAM saliency visualisations
 ├── scripts/                # Execution scripts (The "Workflow")
 ├── src/                    # Core Architecture (Model & Dataset classes)
-├── 6003_Code_Recording.mov # 5-minute technical artefact walkthrough 
 └── requirements.txt        # Python dependencies
 ```
 
